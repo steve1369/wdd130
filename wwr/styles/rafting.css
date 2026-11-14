@@ -1,6 +1,5 @@
 :root {
     --primary-color: #123b50;
-    --secondary-color: #e0a458;
     --accent-color1: #f4f1e8;
     --accent-color2: #287271;
     --heading-font: "Times New Roman";
@@ -70,7 +69,7 @@ h1 {
     color: var(--primary-color);
 }
 
-article {
+.hero article {
     position: absolute;
     top: 100%;
     left: 0;
