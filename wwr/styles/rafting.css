@@ -44,13 +44,19 @@ article {
 }
 
 .hero {
+    margin-bottom: 150px;
     position: relative;
 }
 
-.hero img {
+.hero > img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
 }
 
 h1 {
@@ -66,5 +72,14 @@ h1 {
 
 article {
     position: absolute;
-    margin-bottom: 100px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--accent-color1);
+    margin: 0;
+}
+
+.socialmedia img {
+    width: 200px;
+    height: 200px;
 }
