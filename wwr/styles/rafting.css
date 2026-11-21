@@ -17,7 +17,23 @@ body {
     color: var(--primary-color);
 }
 
-header,
+header {
+    background-color: var(--accent-color2);
+    height: 140px;
+    width: 840px;
+    margin: 3px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header img {
+    justify-self: start;
+    margin-left: 100px;
+}
+
 main,
 footer {
     width: 840px;
@@ -28,6 +44,27 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--accent-color2);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    flex-direction: row;
+    gap: 0px;
+}
+
+li {
+    list-style: none;
+    border: solid black 1px;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: aliceblue;
 }
 
 nav,
