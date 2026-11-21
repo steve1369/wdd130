@@ -116,6 +116,7 @@ section h2 {
 
 .hero {
     position: relative;
+    padding-bottom: 150px;
 }
 
 .hero > img {
@@ -140,6 +141,8 @@ h1 {
 }
 
 .hero article {
+    position: absolute;
+    bottom: 0;
     width: 100%;
     background-color: var(--accent-color1);
     margin: 0;
